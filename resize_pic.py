@@ -1,3 +1,5 @@
+# 将图片分为训练集（包括验证集）和测试集，比例为1500：1000，并将图片大小调整为28*28
+# 原图片在thresh_natural/文件夹中，分类的图片保存到images/train/和images/test/中
 import cv2
 import os
 
